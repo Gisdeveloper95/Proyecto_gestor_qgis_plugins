@@ -38,3 +38,9 @@ flujo anterior. Total puede producir en lote perfiles Total, Económico,
 Jurídico, PH, RECO y SIG; cada padre específico produce únicamente su propia
 edición. Los perfiles usan nombres automáticos, miniaturas por familia y el
 menú/barra independiente **Perfiles GPKG**.
+
+Desde `0.0.81`, el nombre sugerido se orienta a trabajadores de producción.
+Una sola edición guarda directamente su ZIP instalable; varias ediciones se
+entregan en un paquete ZIP con los plugins internos y sus instrucciones.
+Además, selección general, grupo y búsqueda aparecen debajo de los filtros
+operativos y justo encima de la tabla de reglas.
