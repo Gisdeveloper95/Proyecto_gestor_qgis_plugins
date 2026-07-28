@@ -26,3 +26,9 @@ Desde `0.0.78`, Detalle de inconsistencias incorpora búsqueda por
 manzana/NPN/PK, contador visible y un filtro persistente para ocultar registros
 con excepción. El filtro viene activado de forma predeterminada y no altera las
 exportaciones completas de la corrida.
+
+Desde `0.0.79`, los filtros operativos se separan entre generales y específicos
+para NPH, Condominio, PH/PH matriz e Informalidad. Las condiciones `0–9` son
+personalizables. Además, cada plugin padre puede generar desde
+**Exportar → Plugin hijo bloqueado (ZIP)** un perfil instalable, simplificado y
+con sus reglas y filtros congelados.
