@@ -16,3 +16,8 @@ conserva sus seis ZIP históricos sin sobrescritura.
 
 Los plugins Calidad GPKG funcionan con GeoPackage o con capas vectoriales
 cargadas en QGIS y no requieren acceso a PostgreSQL.
+
+Desde `0.0.77`, si el paquete de trabajo entrega un proyecto QGIS `.qgz` junto
+al GeoPackage, el plugin conserva sus formularios profesionales, pestañas y
+relaciones al abrir una inconsistencia. Mantenga ambos archivos en la misma
+carpeta. Si el `.qgz` no está disponible, QGIS muestra su formulario básico.
