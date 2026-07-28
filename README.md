@@ -32,3 +32,9 @@ para NPH, Condominio, PH/PH matriz e Informalidad. Las condiciones `0–9` son
 personalizables. Además, cada plugin padre puede generar desde
 **Exportar → Plugin hijo bloqueado (ZIP)** un perfil instalable, simplificado y
 con sus reglas y filtros congelados.
+
+Desde `0.0.80`, **Exportar → Generar perfiles simplificados** reemplaza el
+flujo anterior. Total puede producir en lote perfiles Total, Económico,
+Jurídico, PH, RECO y SIG; cada padre específico produce únicamente su propia
+edición. Los perfiles usan nombres automáticos, miniaturas por familia y el
+menú/barra independiente **Perfiles GPKG**.
