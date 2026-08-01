@@ -1,0 +1,50 @@
+name: Publicar release GPKG preparado
+
+on:
+  push:
+    tags:
+      - "gpkg-v*"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Descargar artefactos certificados
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+
+      - name: Verificar archivos y hashes
+        env:
+          TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          assets="release-assets/$TAG"
+          test -d "$assets"
+          test -f "$assets/plugins.xml"
+          test -f "$assets/SHA256SUMS.txt"
+          test "$(find "$assets" -maxdepth 1 -type f -name 'calidad_gpkg_*.zip' | wc -l)" -eq 6
+          (
+            cd "$assets"
+            sha256sum --check SHA256SUMS.txt
+          )
+
+      - name: Crear release público inmutable
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          assets="release-assets/$TAG"
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "El release $TAG ya existe; no se modifica."
+            exit 0
+          fi
+          gh release create "$TAG" "$assets"/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "Calidad GPKG ${TAG#gpkg-v}" \
+            --notes "Release certificado de los seis plugins padre GPKG, catálogo XML, código fuente, hashes, SBOM y evidencia de paridad." \
+            --latest
