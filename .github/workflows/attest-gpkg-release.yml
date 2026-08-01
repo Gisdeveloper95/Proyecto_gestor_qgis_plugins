@@ -3,6 +3,9 @@ name: Attest published GPKG release
 on:
   release:
     types: [published]
+  push:
+    tags:
+      - "attest-gpkg-v*"
 
 permissions:
   contents: read
@@ -11,16 +14,17 @@ permissions:
 
 jobs:
   attest:
-    if: startsWith(github.event.release.tag_name, 'gpkg-v')
+    if: github.event_name == 'release' || startsWith(github.ref_name, 'attest-gpkg-v')
     runs-on: ubuntu-24.04
     steps:
       - name: Download every immutable release asset
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.event.release.tag_name }}
+          EVENT_TAG: ${{ github.event.release.tag_name || github.ref_name }}
         shell: bash
         run: |
           set -euo pipefail
+          TAG="${EVENT_TAG#attest-}"
           mkdir artifacts
           gh release download "$TAG" \
             --repo "$GITHUB_REPOSITORY" \
