@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "gpkg-v*"
+      - "publish-gpkg-v*"
 
 permissions:
   contents: write
@@ -17,11 +18,12 @@ jobs:
 
       - name: Verificar archivos y hashes
         env:
-          TAG: ${{ github.ref_name }}
+          TRIGGER_TAG: ${{ github.ref_name }}
         shell: bash
         run: |
           set -euo pipefail
-          assets="release-assets/$TAG"
+          release_tag="${TRIGGER_TAG#publish-}"
+          assets="release-assets/$release_tag"
           test -d "$assets"
           test -f "$assets/plugins.xml"
           test -f "$assets/SHA256SUMS.txt"
@@ -34,17 +36,18 @@ jobs:
       - name: Crear release público inmutable
         env:
           GH_TOKEN: ${{ github.token }}
-          TAG: ${{ github.ref_name }}
+          TRIGGER_TAG: ${{ github.ref_name }}
         shell: bash
         run: |
           set -euo pipefail
-          assets="release-assets/$TAG"
-          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            echo "El release $TAG ya existe; no se modifica."
+          release_tag="${TRIGGER_TAG#publish-}"
+          assets="release-assets/$release_tag"
+          if gh release view "$release_tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "El release $release_tag ya existe; no se modifica."
             exit 0
           fi
-          gh release create "$TAG" "$assets"/* \
+          gh release create "$release_tag" "$assets"/* \
             --repo "$GITHUB_REPOSITORY" \
-            --title "Calidad GPKG ${TAG#gpkg-v}" \
+            --title "Calidad GPKG ${release_tag#gpkg-v}" \
             --notes "Release certificado de los seis plugins padre GPKG, catálogo XML, código fuente, hashes, SBOM y evidencia de paridad." \
             --latest
