@@ -1,0 +1,85 @@
+{
+  "applicable_real_rules": 252,
+  "artifacts": [
+    {
+      "name": "Certificacion-real-PostGIS-GPKG-0.0.82.json",
+      "sha256": "A3878C5F5D37DE5959DD34BF1F03EE9D7039F1D0A33505BDCDB03F8255A516CA",
+      "size": 1167009
+    },
+    {
+      "name": "Contrato-estructural-PostgreSQL-GPKG-0.0.88.json",
+      "sha256": "10CCA46CFFD1F6145623D70D61F7F6ADE28D72281139118377C6D3FA352D90F5",
+      "size": 747792
+    },
+    {
+      "name": "Informe-homologacion-sintetica-0.0.82.json",
+      "sha256": "7B3F7BEA69794BA91E16B0D20617BC37F339B4BFF1BBE2EE9C488BCD692436C9",
+      "size": 4050632
+    },
+    {
+      "name": "Matriz-paridad-reglas-0.0.88.csv",
+      "sha256": "9E290DA60ABA2AD70026AC3CC8B4615BF0BCF874000742931D304842F51BBD91",
+      "size": 15291
+    },
+    {
+      "name": "Plugins-GPKG-codigo-fuente-0.0.88.zip",
+      "sha256": "C7AB775B67E4AD998B6FE853179D1A00359DEB846E77132ABCEC0EE4C29895AB",
+      "size": 1913843
+    },
+    {
+      "name": "Proyecto-Gestor-codigo-fuente-gpkg-v0.0.88.zip",
+      "sha256": "5AA11E7CCD9D356EF52CF86EBD22CCC528591B705F96B4CFAF06DB246EFBAA9F",
+      "size": 3780837
+    },
+    {
+      "name": "calidad_gpkg_economico.0.0.88.zip",
+      "sha256": "8E6FC15910F4C831DE5F8305443C495DE1D884880903FCA53680A2C74B85B09D",
+      "size": 129247
+    },
+    {
+      "name": "calidad_gpkg_juridico.0.0.88.zip",
+      "sha256": "ECD951551FAA108A86FAA7D41285D4F50C0B58A4CBAA5BF885A4971A0CAD19FE",
+      "size": 309044
+    },
+    {
+      "name": "calidad_gpkg_ph.0.0.88.zip",
+      "sha256": "D032192767397F406CA37E6BAF128027C68EDC389819504808471816545419B1",
+      "size": 311819
+    },
+    {
+      "name": "calidad_gpkg_reco.0.0.88.zip",
+      "sha256": "392D3C2E1DD4E8F2567EDC69CCFD44E3154BA94EF8BE8E870C3F594E1FD8150D",
+      "size": 297786
+    },
+    {
+      "name": "calidad_gpkg_sig.0.0.88.zip",
+      "sha256": "42D805FEC9284B2884F4C58CB52691C9CF33047EC06069CF7F53039A920A87C1",
+      "size": 150816
+    },
+    {
+      "name": "calidad_gpkg_total.0.0.88.zip",
+      "sha256": "6DA71D2A6F2452733B1AF183E0A854E4ADEBE9894A3358E8D0523B9CF5FFB24E",
+      "size": 749139
+    },
+    {
+      "name": "sbom-gpkg-0.0.88.spdx.json",
+      "sha256": "46C819F5C1C7F79B73AFBF27521CF9009FC0090E9ADB5B75D08AE767C1BC643E",
+      "size": 6780
+    }
+  ],
+  "commit": "47595d85b5faaa82337d1791d6bf1d46f242bd1c",
+  "equivalence_evidence_version": "0.0.82",
+  "execution_mode": "generated_plan_v1",
+  "generated_at": "2026-08-02T23:53:19Z",
+  "optional_not_applicable": [
+    "SIG_16"
+  ],
+  "portable_manifest_sha256": "03758064913515B03158AD143E720E664F618826B8C5AC55EC07F6735F9EB987",
+  "real_certification_sha256": "A3878C5F5D37DE5959DD34BF1F03EE9D7039F1D0A33505BDCDB03F8255A516CA",
+  "release": "gpkg-v0.0.88",
+  "rule_count": 253,
+  "schema_contract_sha256": "10CCA46CFFD1F6145623D70D61F7F6ADE28D72281139118377C6D3FA352D90F5",
+  "schema_version": 1,
+  "synthetic_report_sha256": "7B3F7BEA69794BA91E16B0D20617BC37F339B4BFF1BBE2EE9C488BCD692436C9",
+  "version": "0.0.88"
+}
