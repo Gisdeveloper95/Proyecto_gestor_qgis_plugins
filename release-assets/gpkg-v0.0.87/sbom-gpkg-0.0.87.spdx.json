@@ -1,0 +1,222 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "2026-08-02T04:21:19Z",
+    "creators": [
+      "Organization: Mapper GIS Catastral"
+    ],
+    "licenseListVersion": "3.27"
+  },
+  "dataLicense": "CC0-1.0",
+  "documentDescribes": [
+    "SPDXRef-Package-1",
+    "SPDXRef-Package-2",
+    "SPDXRef-Package-3",
+    "SPDXRef-Package-4",
+    "SPDXRef-Package-5",
+    "SPDXRef-Package-6",
+    "SPDXRef-Package-7",
+    "SPDXRef-Package-8",
+    "SPDXRef-Package-9",
+    "SPDXRef-Package-10",
+    "SPDXRef-Package-11",
+    "SPDXRef-Package-12"
+  ],
+  "documentNamespace": "urn:uuid:b7586bcc-4267-5f0e-bcc9-568f5c6290aa",
+  "name": "Calidad GPKG 0.0.87",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "A3878C5F5D37DE5959DD34BF1F03EE9D7039F1D0A33505BDCDB03F8255A516CA"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Certificacion-real-PostGIS-GPKG-0.0.82.json",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "10CCA46CFFD1F6145623D70D61F7F6ADE28D72281139118377C6D3FA352D90F5"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Contrato-estructural-PostgreSQL-GPKG-0.0.87.json",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "7B3F7BEA69794BA91E16B0D20617BC37F339B4BFF1BBE2EE9C488BCD692436C9"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Informe-homologacion-sintetica-0.0.82.json",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9E290DA60ABA2AD70026AC3CC8B4615BF0BCF874000742931D304842F51BBD91"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Matriz-paridad-reglas-0.0.87.csv",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "9C90CAC3163C3CA1914867154EACA84692B58B35BA55ADE1855C34E541EA55B1"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Plugins-GPKG-codigo-fuente-0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "61E21E999F888FCA471442766ACD7DD09E5EA78E0087501456E627ADC8E8C6D4"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "name": "Proyecto-Gestor-codigo-fuente-gpkg-v0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "3B261E6D62A6CCD0791955B570B1CC493CF21F77EFC0D0A8C8DD6CF44D314BAE"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "name": "calidad_gpkg_economico.0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "CCBB70807C892CE364823CA46207277A2B1FCB9748FCC2335AE6DC94F14C6AAE"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "name": "calidad_gpkg_juridico.0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-9",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "AA14F3006FE00DC9CAACCE11804690B6DAD52A1A4C7B05AEC94442D5A6F80368"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "name": "calidad_gpkg_ph.0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-10",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "A54A6A7DDFCD5A3532E86099657600128C5FF665FF051CC7FB63E20AED95B14C"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "name": "calidad_gpkg_reco.0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-11",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "77F648A0C3C1ADA73279C8D7260A01E57A6A98F6880A6D8E37E0224676EE3A8A"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "name": "calidad_gpkg_sig.0.0.87.zip",
+      "versionInfo": "0.0.87"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-12",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "253DF37F1D1DE3BB78C985726D5D9C0AF3580D889FA2E410F254892261ED3340"
+        }
+      ],
+      "copyrightText": "NOASSERTION",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "GPL-2.0-or-later",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "name": "calidad_gpkg_total.0.0.87.zip",
+      "versionInfo": "0.0.87"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

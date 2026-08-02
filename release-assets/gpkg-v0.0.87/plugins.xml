@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugins edition="calidad-gpkg">
+  <pyqgis_plugin name="Calidad GPKG Total" version="0.0.87" plugin_id="960001">
+    <description>Valida reglas portables autorizadas sobre capas GPKG.</description>
+    <about>Valida reglas portables autorizadas sobre capas GPKG. Reglas portadas: 253.</about>
+    <trusted>False</trusted>
+    <version>0.0.87</version>
+    <qgis_minimum_version>3.44.0</qgis_minimum_version>
+    <qgis_maximum_version>3.99.0</qgis_maximum_version>
+    <homepage>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins</homepage>
+    <file_name>calidad_gpkg_total.0.0.87.zip</file_name>
+    <icon>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/plugin_icon.png</icon>
+    <download_url>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/calidad_gpkg_total.0.0.87.zip</download_url>
+    <author_name>Gisdeveloper95</author_name>
+    <create_date>2026-08-01T03:31:41Z</create_date>
+    <update_date>2026-08-01T03:31:41Z</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>catastro,calidad,gpkg,portable,qgis</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Calidad GPKG Reco" version="0.0.87" plugin_id="960002">
+    <description>Edicion GPKG de reconocimiento; muestra cobertura portable explicita.</description>
+    <about>Edicion GPKG de reconocimiento; muestra cobertura portable explicita. Reglas portadas: 71.</about>
+    <trusted>False</trusted>
+    <version>0.0.87</version>
+    <qgis_minimum_version>3.44.0</qgis_minimum_version>
+    <qgis_maximum_version>3.99.0</qgis_maximum_version>
+    <homepage>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins</homepage>
+    <file_name>calidad_gpkg_reco.0.0.87.zip</file_name>
+    <icon>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/plugin_icon.png</icon>
+    <download_url>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/calidad_gpkg_reco.0.0.87.zip</download_url>
+    <author_name>Gisdeveloper95</author_name>
+    <create_date>2026-08-01T03:31:41Z</create_date>
+    <update_date>2026-08-01T03:31:41Z</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>catastro,reconocimiento,gpkg,portable,qgis</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Calidad GPKG PH" version="0.0.87" plugin_id="960003">
+    <description>Edicion GPKG de propiedad horizontal con preflight portable.</description>
+    <about>Edicion GPKG de propiedad horizontal con preflight portable. Reglas portadas: 77.</about>
+    <trusted>False</trusted>
+    <version>0.0.87</version>
+    <qgis_minimum_version>3.44.0</qgis_minimum_version>
+    <qgis_maximum_version>3.99.0</qgis_maximum_version>
+    <homepage>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins</homepage>
+    <file_name>calidad_gpkg_ph.0.0.87.zip</file_name>
+    <icon>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/plugin_icon.png</icon>
+    <download_url>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/calidad_gpkg_ph.0.0.87.zip</download_url>
+    <author_name>Gisdeveloper95</author_name>
+    <create_date>2026-08-01T03:31:41Z</create_date>
+    <update_date>2026-08-01T03:31:41Z</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>catastro,ph,gpkg,portable,qgis</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Calidad GPKG Juridico" version="0.0.87" plugin_id="960004">
+    <description>Edicion GPKG juridica con cobertura portable explicita.</description>
+    <about>Edicion GPKG juridica con cobertura portable explicita. Reglas portadas: 82.</about>
+    <trusted>False</trusted>
+    <version>0.0.87</version>
+    <qgis_minimum_version>3.44.0</qgis_minimum_version>
+    <qgis_maximum_version>3.99.0</qgis_maximum_version>
+    <homepage>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins</homepage>
+    <file_name>calidad_gpkg_juridico.0.0.87.zip</file_name>
+    <icon>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/plugin_icon.png</icon>
+    <download_url>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/calidad_gpkg_juridico.0.0.87.zip</download_url>
+    <author_name>Gisdeveloper95</author_name>
+    <create_date>2026-08-01T03:31:41Z</create_date>
+    <update_date>2026-08-01T03:31:41Z</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>catastro,juridico,gpkg,portable,qgis</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Calidad GPKG SIG" version="0.0.87" plugin_id="960005">
+    <description>Ejecuta reglas SIG portables autorizadas sobre capas GPKG.</description>
+    <about>Ejecuta reglas SIG portables autorizadas sobre capas GPKG. Reglas portadas: 16.</about>
+    <trusted>False</trusted>
+    <version>0.0.87</version>
+    <qgis_minimum_version>3.44.0</qgis_minimum_version>
+    <qgis_maximum_version>3.99.0</qgis_maximum_version>
+    <homepage>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins</homepage>
+    <file_name>calidad_gpkg_sig.0.0.87.zip</file_name>
+    <icon>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/plugin_icon.png</icon>
+    <download_url>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/calidad_gpkg_sig.0.0.87.zip</download_url>
+    <author_name>Gisdeveloper95</author_name>
+    <create_date>2026-08-01T03:31:41Z</create_date>
+    <update_date>2026-08-01T03:31:41Z</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>catastro,sig,gpkg,portable,qgis</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+  <pyqgis_plugin name="Calidad GPKG Economico" version="0.0.87" plugin_id="960006">
+    <description>Edicion GPKG economica con cobertura portable explicita.</description>
+    <about>Edicion GPKG economica con cobertura portable explicita. Reglas portadas: 7.</about>
+    <trusted>False</trusted>
+    <version>0.0.87</version>
+    <qgis_minimum_version>3.44.0</qgis_minimum_version>
+    <qgis_maximum_version>3.99.0</qgis_maximum_version>
+    <homepage>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins</homepage>
+    <file_name>calidad_gpkg_economico.0.0.87.zip</file_name>
+    <icon>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/plugin_icon.png</icon>
+    <download_url>https://github.com/Gisdeveloper95/Proyecto_gestor_qgis_plugins/releases/download/gpkg-v0.0.87/calidad_gpkg_economico.0.0.87.zip</download_url>
+    <author_name>Gisdeveloper95</author_name>
+    <create_date>2026-08-01T03:31:41Z</create_date>
+    <update_date>2026-08-01T03:31:41Z</update_date>
+    <experimental>False</experimental>
+    <deprecated>False</deprecated>
+    <tags>catastro,economico,gpkg,portable,qgis</tags>
+    <server>False</server>
+  </pyqgis_plugin>
+</plugins>
