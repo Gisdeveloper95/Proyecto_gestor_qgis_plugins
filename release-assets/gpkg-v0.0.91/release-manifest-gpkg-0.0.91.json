@@ -1,0 +1,78 @@
+{
+  "artifacts": [
+    {
+      "name": "calidad_gpkg_economico.0.0.91.zip",
+      "sha256": "8462F7DD2BA690E718488F01BB154A7A697A919648908B89FE0EEB6E739C327D",
+      "size": 131584
+    },
+    {
+      "name": "calidad_gpkg_juridico.0.0.91.zip",
+      "sha256": "94B34782CBB92AE2E5418616CE0FBBA992A321C86293539CF3A9779E6322927E",
+      "size": 311381
+    },
+    {
+      "name": "calidad_gpkg_ph.0.0.91.zip",
+      "sha256": "707F1DC98985DA8A27863DCBCB3576B0EA95C3454155A45FFE1C076C51D5B0EA",
+      "size": 314156
+    },
+    {
+      "name": "calidad_gpkg_reco.0.0.91.zip",
+      "sha256": "6801E94503F3C5FF401E7E993C6116155BCAB92F7740EE58968D0542224F65F6",
+      "size": 300124
+    },
+    {
+      "name": "calidad_gpkg_sig.0.0.91.zip",
+      "sha256": "AA7DF8F1DFD55CD6736FC702A8E9B7A29394C803D70CB1731B820073A715C3A5",
+      "size": 153152
+    },
+    {
+      "name": "calidad_gpkg_total.0.0.91.zip",
+      "sha256": "D2E299CFC61BDE7C05766FCADEC54EDADF8AA42690C5BF57C9AA6DA525576340",
+      "size": 751476
+    },
+    {
+      "name": "plugin_icon.png",
+      "sha256": "A8F1959082C6BD8FEDCEF93FC20C155925930EE73B6005F956D8E13A31169CDD",
+      "size": 5339
+    },
+    {
+      "name": "Plugins-gpkg-codigo-fuente-0.0.91.zip",
+      "sha256": "3B6C1A1DE9779103283E20C633ADD8887B5C01665A6673E1D6896EB78371F3BA",
+      "size": 1847524
+    },
+    {
+      "name": "plugins.xml",
+      "sha256": "926C4A5B6557DDED8DB17AE4AB78584369374AAA3C160DD3274B00C2F761DB35",
+      "size": 7244
+    },
+    {
+      "name": "portable-manifest.json",
+      "sha256": "9438677D33CEA193DBEA72CF75AE8AFA4BDE4031EDB08615A425A4B57D7A25F3",
+      "size": 2571616
+    },
+    {
+      "name": "Proyecto-Gestor-codigo-fuente-gpkg-v0.0.91.zip",
+      "sha256": "1542982437BF7F25950C8997CEDD2ADB5528FC5DE7FBA6B5F03040375268FB45",
+      "size": 3875648
+    },
+    {
+      "name": "schema-contract.json",
+      "sha256": "10CCA46CFFD1F6145623D70D61F7F6ADE28D72281139118377C6D3FA352D90F5",
+      "size": 747792
+    },
+    {
+      "name": "windows-certification.json",
+      "sha256": "3541C718A512F750B7DE550782C14169EBE5096507587EEE9B471700B0B93939",
+      "size": 1411
+    }
+  ],
+  "certification_sha256": "3541C718A512F750B7DE550782C14169EBE5096507587EEE9B471700B0B93939",
+  "change_set_id": "qgis-minimum-3.36.0-only",
+  "edition": "gpkg",
+  "functional_changes": true,
+  "healthy_source_tag": null,
+  "recovery": false,
+  "schema_version": 1,
+  "source_commit": "0ab2a4fb608bc72ab3d2f693867fadca778cd147",
+  "version": "0.0.91"
+}

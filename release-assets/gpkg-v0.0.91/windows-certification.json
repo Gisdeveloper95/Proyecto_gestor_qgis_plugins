@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-03T19:46:25.772985+00:00",
+  "status": "passed",
+  "qgis_version": "3.36.0-Maidenhead",
+  "python_version": "3.9.18",
+  "declared_qgis_minimum_version": "3.36.0",
+  "packages": [
+    {
+      "package": "calidad_gpkg_total",
+      "version": "0.0.91",
+      "qgis_minimum_version": "3.36.0",
+      "rule_count": 253,
+      "entrypoint": "ok",
+      "ui": "ok"
+    },
+    {
+      "package": "calidad_gpkg_reco",
+      "version": "0.0.91",
+      "qgis_minimum_version": "3.36.0",
+      "rule_count": 71,
+      "entrypoint": "ok",
+      "ui": "ok"
+    },
+    {
+      "package": "calidad_gpkg_ph",
+      "version": "0.0.91",
+      "qgis_minimum_version": "3.36.0",
+      "rule_count": 77,
+      "entrypoint": "ok",
+      "ui": "ok"
+    },
+    {
+      "package": "calidad_gpkg_juridico",
+      "version": "0.0.91",
+      "qgis_minimum_version": "3.36.0",
+      "rule_count": 82,
+      "entrypoint": "ok",
+      "ui": "ok"
+    },
+    {
+      "package": "calidad_gpkg_sig",
+      "version": "0.0.91",
+      "qgis_minimum_version": "3.36.0",
+      "rule_count": 16,
+      "entrypoint": "ok",
+      "ui": "ok"
+    },
+    {
+      "package": "calidad_gpkg_economico",
+      "version": "0.0.91",
+      "qgis_minimum_version": "3.36.0",
+      "rule_count": 7,
+      "entrypoint": "ok",
+      "ui": "ok"
+    }
+  ]
+}
